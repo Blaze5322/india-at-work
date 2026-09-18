@@ -1,0 +1,1 @@
+export default function SectionHeader({ kicker, title, subtitle, number }) { return <header className="section-heading"><div className="section-index">{number || kicker?.slice(0,2)}</div><div><div className="eyebrow section-eyebrow">{kicker}</div><h2>{title}</h2>{subtitle && <p>{subtitle}</p>}</div></header>; }

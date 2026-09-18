@@ -1,0 +1,10 @@
+import { useMemo,useState } from 'react';
+import { opportunities } from '../../data/opportunities';
+import { opportunityCopy } from '../../i18n/opportunities';
+import SectionHeader from '../ui/SectionHeader';
+import CalloutBox from '../ui/CalloutBox';
+import OpportunityCard from '../ui/OpportunityCard';
+const filters=[['location','Location'],['type','Type'],['education','Education'],['sector','Sector']];
+export default function FindOpportunities({t,locale}){const [selected,setSelected]=useState({location:'All',type:'All',education:'All',sector:'All'}); const options=k=>['All',...new Set(opportunities.map(x=>x[k]))]; const visible=useMemo(()=>opportunities.filter(o=>filters.every(([k])=>selected[k]==='All'||o[k]===selected[k])),[selected]); const copy=opportunityCopy[locale]||opportunityCopy.en; return <section id="opportunities" className="section section-alt"><div className="container"><SectionHeader number="04" kicker={t('opportunities.eyebrow')} title={t('opportunities.title')} subtitle={t('opportunities.description')}/><CalloutBox eyebrow={t('opportunities.where')} title={t('opportunities.whereTitle')} tone="blue">{t('opportunities.whereText')}</CalloutBox>
+ <div className="filter-shell"><div className="filter-top"><span>{t('opportunities.filters.location')} · {t('opportunities.filters.type')} · {t('opportunities.filters.education')} · {t('opportunities.filters.sector')}</span><b>{visible.length} {t('opportunities.listings')}</b></div><div className="filters-grid">{filters.map(([key])=><label key={key}>{t(`opportunities.filters.${key}`)}<select value={selected[key]} onChange={e=>setSelected(s=>({...s,[key]:e.target.value}))}>{options(key).map(x=><option key={x} value={x}>{x==='All'?t('opportunities.all'):t(`opportunities.${key==='type'?'types':key==='education'?'education':'sectors'}.${x}`)||x}</option>)}</select></label>)}</div></div>
+ <div className="sample-banner"><span className="status-dot"/>{t('opportunities.sample')}<span className="sample-rule"/></div><div className="opportunities-grid">{visible.map(o=><OpportunityCard key={o.id} opportunity={o} copy={copy[o.id]} t={t}/>)}</div></div></section>}

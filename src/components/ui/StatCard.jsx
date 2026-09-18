@@ -1,0 +1,1 @@
+export default function StatCard({stat, accent='blue'}) { return <article className={`stat-card accent-${accent}`}><div className="stat-card-top"><span>{stat.population}</span><b>{stat.year}</b></div><strong>{stat.displayValue}</strong><h3>{stat.name}</h3><p>{stat.description}</p><small>{stat.source}</small></article>; }

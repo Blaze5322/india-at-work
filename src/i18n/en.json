@@ -1,0 +1,150 @@
+{
+  "navigation": {
+    "home": "Home",
+    "glance": "At a glance",
+    "youth": "Youth & work",
+    "gender": "Gender & work",
+    "trade": "Trade & jobs",
+    "opportunities": "Opportunities",
+    "explore": "Explore",
+    "language": "Language",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "AN OPEN VIEW OF WORK IN INDIA",
+    "title": "India at Work.",
+    "description": "Labour-market data, translated into something people can actually understand — and use.",
+    "explore": "Explore the data",
+    "opportunities": "Find opportunities",
+    "topics": [
+      "Economic growth",
+      "Youth employment",
+      "Gender & work",
+      "Trade & jobs"
+    ],
+    "panel": "THE BIG PICTURE",
+    "men": "Men · LFPR",
+    "women": "Women · LFPR",
+    "youth": "Youth unemployment",
+    "endpoints": "India · 2025 endpoints",
+    "scroll": "Scroll to explore",
+    "source": "Project brief"
+  },
+  "why": {
+    "label": "Why data matters",
+    "text": "Numbers are not just numbers. They shape how we understand jobs, inequality, participation and opportunity — and help us ask better questions about what is changing."
+  },
+  "glance": {
+    "eyebrow": "INDIA AT A GLANCE",
+    "title": "A few numbers can change the frame.",
+    "description": "Start with the indicators that anchor the story: GDP growth, youth unemployment and labour-force participation.",
+    "epr": "LFPR",
+    "eprText": "The share of the working-age population participating in the labour force.",
+    "yu": "Youth unemployment",
+    "yuText": "Young people in the labour force who are currently without work.",
+    "lfpr": "LFPR",
+    "lfprText": "Participation includes people who are working or actively looking for work.",
+    "gdp": "GDP growth",
+    "year": "2025",
+    "eprMen": "Men · EPR",
+    "eprWomen": "Women · EPR",
+    "gap": "LFPR gender gap",
+    "gapText": "Male LFPR minus female LFPR, measured in percentage points."
+  },
+  "trade": {
+    "eyebrow": "TRADE & JOBS",
+    "title": "Growth and youth employment tell different parts of the story.",
+    "description": "Comparing endpoints can reveal direction without pretending we know what happened between them.",
+    "gdp": "GDP growth",
+    "unemployment": "Youth unemployment",
+    "endpoint": "Endpoint comparison only — no intermediate values are fabricated.",
+    "from": "2013",
+    "to": "2025"
+  },
+  "youth": {
+    "eyebrow": "YOUTH & EMPLOYMENT",
+    "title": "Participation is not the same as opportunity.",
+    "description": "A young population can be an economic asset — but only if people can participate, find work and build productive careers.",
+    "comparison": "Youth unemployment · endpoint comparison",
+    "men": "Men",
+    "women": "Women",
+    "dividend": "THE DEMOGRAPHIC DIVIDEND",
+    "dividendTitle": "A large working-age population creates potential — not an automatic payoff.",
+    "dividendText": "The demographic dividend depends on people being able to participate productively in the economy. Education, skills, jobs, mobility and institutions all influence whether that potential is realised.",
+    "lfpr": "Labour Force Participation Rate · two endpoints",
+    "femaleCaption": "Female LFPR increased from 26.67% in 2013 to 32.43% in 2025.",
+    "interpretation": "Youth unemployment decreased from 24.47% in 2013 to 16.02% in 2025. This visual uses only supplied endpoint values.",
+    "year2013": "2013",
+    "year2025": "2025"
+  },
+  "gender": {
+    "eyebrow": "GENDER & WORK",
+    "title": "The gender gap is visible in one glance.",
+    "description": "The 2025 labour-force participation rates supplied for this project show a substantial difference between men and women.",
+    "men": "Men",
+    "women": "Women",
+    "difference": "percentage-point difference",
+    "caption": "Female LFPR increased from 26.67% in 2013 to 32.43% in 2025; the LFPR gap was 49.23 percentage points in 2025.",
+    "scale": "Common scale: 0–100%. LFPR gender gap = male LFPR minus female LFPR.",
+    "question": "Where is the gap?",
+    "maleLabel": "Men · 2025 LFPR",
+    "femaleLabel": "Women · 2025 LFPR"
+  },
+  "opportunities": {
+    "eyebrow": "FROM DATA TO ACTION",
+    "title": "Turn information into a next step.",
+    "description": "A future-ready opportunity layer can connect people to internships, jobs, fellowships and skills programmes — filtered by what actually matters to them.",
+    "where": "WHERE THIS FITS",
+    "whereTitle": "The goal is not just to show data. It is to make the data useful.",
+    "whereText": "India at Work is designed as an awareness layer: understand the labour market first, then discover relevant pathways into work, training and enterprise.",
+    "sample": "Sample data — live opportunities coming soon",
+    "listings": "listings",
+    "all": "All",
+    "view": "View opportunity",
+    "deadline": "Deadline",
+    "sampleListing": "Sample listing",
+    "filters": {
+      "location": "Location",
+      "type": "Type",
+      "education": "Education",
+      "sector": "Sector"
+    },
+    "types": {
+      "Internship": "Internship",
+      "Fellowship": "Fellowship",
+      "Part-time": "Part-time",
+      "Traineeship": "Traineeship",
+      "Full-time": "Full-time"
+    },
+    "education": {
+      "Undergraduate": "Undergraduate",
+      "Graduate": "Graduate"
+    },
+    "sectors": {
+      "Data & Technology": "Data & Technology",
+      "Development": "Development",
+      "Public Policy": "Public Policy",
+      "MSME": "MSME",
+      "Manufacturing": "Manufacturing",
+      "Skills & Training": "Skills & Training"
+    }
+  },
+  "footer": {
+    "description": "An editorial data platform for understanding work, participation and opportunity in India.",
+    "sources": "Sources & methodology",
+    "note": "Data note: labour-market statistics shown here come from the new supplied dataset. Opportunity listings are sample data and are not live vacancies.",
+    "navigation": "Navigation",
+    "methodology": "Sources & methodology",
+    "methodologyText": "The labour-market data source for this update is the new supplied dataset. The supplied dataset covers 1990–2025. Blank cells are retained as unavailable values; no missing values are guessed or interpolated.",
+    "copyright": "India at Work · Public-interest prototype",
+    "back": "Back to top"
+  },
+  "accessibility": {
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "genderChart": "Two horizontal bars on a common zero to one hundred percent scale. Men: 81.65 percent LFPR. Women: 32.43 percent LFPR."
+  },
+  "common": {
+    "dataNote": "Data note"
+  }
+}
